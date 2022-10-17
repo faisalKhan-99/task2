@@ -6,8 +6,8 @@ import AuthNavigator from './src/routes/AuthNavigator';
 import { LogBox } from 'react-native';
 import DrawerNavigation from './src/routes/AuthNavigator'
 
-LogBox.ignoreLogs(['Warning: ...']); // Ignore log notification by message
-LogBox.ignoreAllLogs(); //Ignore all log notifications
+LogBox.ignoreLogs(['Warning: ...']); 
+LogBox.ignoreAllLogs(); 
 
 const App = () => {
   return (

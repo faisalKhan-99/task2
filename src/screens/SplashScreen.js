@@ -3,8 +3,8 @@ import React, { useRef, useEffect } from 'react';
 import { Animated, Text, View } from 'react-native';
 
 const FadeInView = (props) => {
-  const fadeAnim = useRef(new Animated.Value(0)).current  // Initial value for opacity: 0
-  const scaling = useRef(new Animated.Value(0)).current 
+  const fadeAnim = useRef(new Animated.Value(0)).current  
+  
   const navigation = useNavigation()
 const timer = () =>{
     setTimeout(()=>{

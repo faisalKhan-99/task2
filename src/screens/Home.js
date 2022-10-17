@@ -27,7 +27,7 @@ const Home = () => {
         
     }
     nftWallet();
-    // console.log('mounted',nftData[0])
+   
    getLocation();
     
     
@@ -133,9 +133,7 @@ const navigation = useNavigation()
           clusterColor={'#999999'}
           animationEnabled
           showsUserLocation={true}
-          onRegionChange = {region=>{
-            // console.log('region changed',region)
-          }}
+          
           
         >
             {/* WONT WORK CZ DONT HAVE COORDINATES FOR NFTS
@@ -176,9 +174,9 @@ const navigation = useNavigation()
             title={"Task3"}
             description={"Reward $5"}
             onPress={()=>
-              // navigation.navigate("task",{title:"Task3",description:"Go pick up dump you degen"})
+             
             setModalVisible(!modalVisible)
-            // console.log('dikha?',modalVisible)
+           
             }
          >
           
@@ -220,10 +218,8 @@ const styles = StyleSheet.create({
   modalSheet : {
     position:'absolute',
     borderRadius:60,
-//justifyContent: "center",
 alignSelf: "center",
 backgroundColor:"white",
-//marginTop: 22,
 bottom:0,
 height:'30%',
 width:'100%',

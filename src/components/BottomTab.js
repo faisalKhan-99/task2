@@ -26,7 +26,7 @@ const BottomTab = () => {
     >
       <TouchableOpacity
         // onPress={() => {
-        //   navigation.replace('Map');
+       
         // }}
         style={styles.wrapper}
       >
@@ -35,9 +35,7 @@ const BottomTab = () => {
       </TouchableOpacity>
 
       <TouchableOpacity
-        // onPress={() => {
-        //   navigation.replace('Home');
-        // }}
+        
         style={styles.wrapper}
       >
         <MaterialIcons
