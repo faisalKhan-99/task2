@@ -138,7 +138,9 @@ const navigation = useNavigation()
           }}
           
         >
-            {/* {(nftData.length>0) ?  WONT WORK CZ DONT HAVE COORDINATES FOR NFTS
+            {/* WONT WORK CZ DONT HAVE COORDINATES FOR NFTS
+            
+            {(nftData.length>0) ?  
               nftData.map((item,index)=>{
                 console.log('map',item);
               }) : null
