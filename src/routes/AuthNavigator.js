@@ -6,16 +6,7 @@ import Task from '../screens/Task';
 import FadeInView from '../screens/SplashScreen'
 import { CardStyleInterpolators } from '@react-navigation/stack';
 
-// export const DrawerNavigation = () =>{
-//     const Drawer = createDrawerNavigator();
-//     return(
-//         <Drawer.Navigator initialRouteName="Home">
-//         <Drawer.Screen name="Home" component={Home} />
-       
-//       </Drawer.Navigator>
-//     )
-   
-// }
+
 
 const AuthNavigator = () =>{
     const stack  = createStackNavigator();
